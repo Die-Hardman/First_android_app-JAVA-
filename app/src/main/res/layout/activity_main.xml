@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+  >
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:autofillHints=""
+        android:textColor="@color/black"
+        android:ems="20"
+        android:hint="@string/full_name2"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+       android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/gilz2"
+        android:contentDescription="@string/vrvtrv" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/black"
+        android:onClick="sayNum2"
+        android:text="@string/vtrvr"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="280dp"
+        android:background="@color/black"
+        android:onClick="sayNum"
+        android:text="@string/tvrvrt"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="107dp"
+        android:textSize="30sp"
+        android:text="@string/fvdfv" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="310dp"
+        android:contentDescription="@string/full_name"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="280dp"
+        android:textSize="20sp"
+        android:text="@string/model" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginStart="46dp"
+        app:srcCompat="@drawable/glock19"
+        android:contentDescription="TODO"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:textColor="@color/black"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="250dp"
+        android:textSize="19sp"
+        android:text="@string/order_price" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="250dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="@string/_0екпими" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+        android:onClick="AddtoCard"
+        android:background="@color/black"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="596dp"
+        android:text="@string/add_to_card" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="468dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="340dp"
+        android:textSize="28sp"
+        android:text="@string/doll" />
+
+</RelativeLayout>
+

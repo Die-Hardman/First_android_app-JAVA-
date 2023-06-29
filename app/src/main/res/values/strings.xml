@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GUN_SHOP</string>
+    <string name="full_name">Full name</string>
+    <string name="full_name2">Full name</string>
+    <string name="fvdfv">0</string>
+    <string name="tvrvrt">+</string>
+    <string name="vtrvr">-</string>
+    <string name="vrvtrv">TODO</string>
+    <string name="model">Model</string>
+    <string name="order_price">Order Price</string>
+    <string name="_0екпими">0</string>
+    <string name="add_to_card">ADD TO CARD</string>
+    <string name="doll">$</string>
+
+
+</resources>
